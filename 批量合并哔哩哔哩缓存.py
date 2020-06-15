@@ -43,9 +43,7 @@ def getFileList(file_dir):
                 VideoPath.append(Vpath)
                 AudioPath.append(Apath)
             else:
-                print('error')
-                print(str(root))
-                print(str(root) + str(dirs[0]) + '\\' + '0.blv')
+                print('错误，未找到缓存文件，可能未缓存完成，路径为：' + str(root))
                 os.system("pause");
         infofile = '/0'
         movfile = '/0'
